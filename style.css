@@ -20,8 +20,8 @@ nav  {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    gap: 20px;
-    background-color: #0f172a;
+    gap: 30px;
+    background-color:rgb(30, 25, 83);
     color:#fdfdfd
 }
 
@@ -49,8 +49,10 @@ nav:hover{
 }
 
 a:hover{
-    background-color: #094a53;
-    color: rgb(239, 113, 199);
+    background-color: #ec2fb3;
+    color: rgb(231, 231, 237);
+    border-radius: 5px;
+
 }
 
 button:hover{
@@ -76,13 +78,13 @@ section {
 padding: 60px 20px;
 text-align: center;
 background-color: #fff;
-border: 2px solid red;
+border: 1px solid  rgb(236, 176, 217);
 font-size: 20px;
 }
 
 section .perfil{
     justify-content: center;
-    border: 5px solid yellow;
+    
 }
 
 
@@ -94,6 +96,7 @@ display: flex;
 justify-content: center;
 flex-wrap: wrap;
 background-color:#fff;
+border: 1px solid #dda6cc;
 }
 
 card {
@@ -102,6 +105,7 @@ padding: 20px;
 margin: 15px;
 width: 250px;
 border-radius: 10px;
+border: 2px solid #1e293b;
 transition: 0.3;
 }
 
