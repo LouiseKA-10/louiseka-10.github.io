@@ -52,7 +52,6 @@ a:hover{
     background-color: #ec2fb3;
     color: rgb(231, 231, 237);
     border-radius: 5px;
-
 }
 
 button:hover{
@@ -84,7 +83,6 @@ font-size: 20px;
 
 section .perfil{
     justify-content: center;
-    
 }
 
 
@@ -127,14 +125,12 @@ button:hover{
     background-color: rgb(168, 160, 255);
     color: black;
 }
+
 /* ANIMAÇÃO */
-
-
 .fade-in {
 opacity: 1;
 transform:translateY(20px) ;
 transition: 0.6;
-
 }
 
 fade-in .show {
