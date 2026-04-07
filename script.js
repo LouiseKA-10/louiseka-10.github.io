@@ -1,5 +1,5 @@
 // BOTÃO VOLTAR AO TOPO
-const botao = document.getElementById("topo");
+const botao =  document get ElementById("topo");
 
 window.addEventListener("scroll", () => {
 if (window.scrollY > 200) {
@@ -8,13 +8,13 @@ botao.style.display = "block";
 botao.style.display = "none";
 }
 });
-
+//Apaguei alguns códigos para que o modo fishing não funcione
 botao.addEventListener("click", () => {
 window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
 // ANIMAÇÃO AO SCROLL
-const elementos = document.querySelectorAll(".fade-in");
+const elementos = document.querySelectorAll(".fade-in);
 
 const mostrar = () => {
 elementos.forEach(el => {
@@ -25,4 +25,6 @@ el.classList.add("show");
 });
 };
 
-window.addEventListener("scroll", mostrar);
+window.addEventListener("scroll"), mostrar;
+
+//Projeto de fishing falso.Somete para praticar o javascript
