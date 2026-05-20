@@ -1,5 +1,9 @@
 // BOTÃO VOLTAR AO TOPO
+<<<<<<< Updated upstream
 const botao = documentgetElementById("topo");
+=======
+const botao = document.getElementById("topo");
+>>>>>>> Stashed changes
 
 window.addEventListener("scroll", () => {
 if (window.scrollY > 200) {
@@ -14,7 +18,7 @@ window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
 // ANIMAÇÃO AO SCROLL
-const elementos = document.querySelectorAll(".fade-in);
+const elementos = document.querySelectorAll(".fade-in");
 
 const mostrar = () => {
 elementos.forEach(el => {
@@ -25,6 +29,6 @@ el.classList.add("show");
 });
 };
 
-window.addEventListener("scroll"), mostrar;
+window.addEventListener("scroll", mostrar);
 
 //Projeto de fishing falso.Somete para praticar o javascript

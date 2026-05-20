@@ -42,6 +42,8 @@ nav h2{
     margin-left: 20px;
 }
 
+
+
 /*animação no botão*/
 nav:hover{
     background-color: #094a53;
@@ -69,7 +71,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 background: #1e293b;
-color: white;
+color: rgb(214, 203, 203);
 }
 
 /* SEÇÕES */
@@ -79,17 +81,17 @@ text-align: center;
 background-color: #fff;
 border: 1px solid  rgb(236, 176, 217);
 font-size: 20px;
+color: black;
 }
 
 section .perfil{
     justify-content: center;
+  
 }
-
-
 
 /* PROJETOS */
 
-container-projetos {
+.container-projetos {
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
@@ -97,14 +99,14 @@ background-color:#fff;
 border: 1px solid #dda6cc;
 }
 
-card {
+.card {
 background:#f1f5f9 ;/*#f1f5f9*/
 padding: 20px;
 margin: 15px;
 width: 250px;
 border-radius: 10px;
 border: 2px solid #1e293b;
-transition: 0.3;
+transition: 0.3s;
 }
 
 .card:hover {
@@ -128,12 +130,12 @@ button:hover{
 
 /* ANIMAÇÃO */
 .fade-in {
-opacity: 1;
+opacity: 2;
 transform:translateY(20px) ;
-transition: 0.6;
+transition: 0.6s;
 }
 
-fade-in .show {
-opacity: 0;
+.fade-in.show {
+opacity: 1;
 transform: translateY(0);
 } 
